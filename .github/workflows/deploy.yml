@@ -27,6 +27,7 @@ jobs:
       run: |
         wget https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_${{ env.HUGO_VERSION }}_Linux-64bit.deb
         sudo dpkg -i hugo_${{ env.HUGO_VERSION }}_Linux-64bit.deb
+        git submodule foreach git pull origin master
         hugo
 
     - name: Deploy hugo site to bucket
