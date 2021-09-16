@@ -13,8 +13,8 @@ disqusShortname = "reversengineeredcom"
 
 [params]
   author = "Antony Messerli"
-  #info = "Systems Engineer"
-  description = "Antony Messerli's personal website"
+  info = "Systems Engineer"
+  description = "Antony Messerli's Blog"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
   gravatar = "antony@mes.ser.li"
