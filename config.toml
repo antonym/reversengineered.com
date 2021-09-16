@@ -1,6 +1,7 @@
 baseURL = "https://www.reversengineered.com/"
 languageCode = "en-us"
-title = "REVERSƎNGINEERED"
+title = "reversɘngineered"
+#title = "REVERSƎNGINEERED"
 theme = "hugo-coder"
 
 paginate = 20
