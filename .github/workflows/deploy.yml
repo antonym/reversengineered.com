@@ -36,6 +36,6 @@ jobs:
       run: |
         aws s3 sync --no-progress --acl public-read public s3://${{ secrets.BUCKET_SITE }}
 
-#    - name: Invalidate Cloudfront
-#      run: |
-#        aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DIST_ID_SITE }} --paths "/*"
+    - name: Invalidate Cloudfront
+      run: |
+        aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DIST_ID_SITE }} --paths "/*"
