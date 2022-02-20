@@ -14,7 +14,7 @@ disqusShortname = "reversengineeredcom"
 
 [params]
   author = "Antony Messerli"
-  info = "Systems Engineer"
+  info = "Principal Engineer"
   description = "Antony Messerli's Blog"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
@@ -50,6 +50,11 @@ disqusShortname = "reversengineeredcom"
   weight = 1
   url = "https://github.com/antonym"
 [[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 1
+  url = "https://gitlab.com/antonym"
+[[params.social]]
   name = "Linkedin"
   icon = "fa fa-linkedin fa-2x"
   weight = 2
@@ -59,11 +64,6 @@ disqusShortname = "reversengineeredcom"
   icon = "fa fa-twitter fa-2x"
   weight = 3
   url = "https://twitter.com/@ntonym/"
-[[params.social]]
-  name = "Keybase"
-  icon = "fa fa-keybase fa-2x"
-  weight = 4
-  url = "https://keybase.io/antonym"
 [[params.social]]
   name = "resume"
   icon = "fa fa-file fa-2x"
