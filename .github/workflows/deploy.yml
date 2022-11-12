@@ -27,8 +27,8 @@ jobs:
 
     - name: Build hugo site
       run: |
-        wget https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_${{ env.HUGO_VERSION }}_Linux-64bit.deb
-        sudo dpkg -i hugo_${{ env.HUGO_VERSION }}_Linux-64bit.deb
+        wget https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_${{ env.HUGO_VERSION }}_linux-64bit.deb
+        sudo dpkg -i hugo_${{ env.HUGO_VERSION }}_linux-64bit.deb
         hugo
 
     - name: Deploy hugo site to bucket
