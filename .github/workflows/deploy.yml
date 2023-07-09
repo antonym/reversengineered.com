@@ -7,7 +7,7 @@ on:
 
 env:
   GITHUB_SHA: ${{ github.sha }}
-  HUGO_VERSION: 0.108.0
+  HUGO_VERSION: 0.115.2
 
 jobs:
   release:
