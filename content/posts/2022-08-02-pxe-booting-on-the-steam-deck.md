@@ -13,7 +13,7 @@ tags = [
 ]
 +++
 
-The Valve [Steam Deck](https://store.steampowered.com/steamdeck) is a really nice piece of hardware that supports Linux. When I first saw the specifications released for it, I hoped it would be a great device to tinker with so I put my pre-order in immediately. I received it in May and set it aside for a bit. One weekend I decided to start playing around to see what the hardware was capable of.
+The Valve [Steam Deck](https://amzn.to/4jzhCjn) is a really nice piece of hardware that supports Linux. When I first saw the specifications released for it, I hoped it would be a great device to tinker with so I put my pre-order in immediately. I received it in May and set it aside for a bit. One weekend I decided to start playing around to see what the hardware was capable of.
 
 The first thing I wanted to try was to see if I could actually get the Steam Deck to PXE boot off the network. After a little trial and error, I found that I could. Here's how I did it.
 
@@ -21,11 +21,11 @@ The first thing I wanted to try was to see if I could actually get the Steam Dec
 
 To get the Steam Deck to PXE boot, you will need:
 
-- [USB-C Hub](https://amzn.to/3zveSgu) that supports Ethernet and USB
+- [USB-C Hub](https://amzn.to/4hiGPNh) that supports Ethernet and USB
 - USB Keyboard
 - Hard Wired Ethernet
 
-I had to pick up a newer USB-C Hub in order to get it functioning as some of my older hubs did not want to work properly. The one that worked for me was the [USB C Hub 4K 60Hz, CableCreation 7-in-1 USB-C Hub Multiport Adapter](https://amzn.to/3zveSgu). The USB-C Hub has to be plugged in for the Ethernet to work properly. I'm hoping to switch to the Steam Deck dock once they are available.
+I had to pick up a newer USB-C Hub in order to get it functioning as some of my older hubs did not want to work properly. The one that worked for me was the [USB C Hub 4K 60Hz, CableCreation 7-in-1 USB-C Hub Multiport Adapter](https://amzn.to/4hiGPNh). The USB-C Hub has to be plugged in for the Ethernet to work properly. I'm hoping to switch to the Steam Deck dock once they are available.
 
 Connect the hub, ethernet, and power up to the Steam Deck. The first thing you will want to do is set the BIOS to allow for PXE booting.
 

@@ -24,7 +24,7 @@ The 24 Port PoE Switch is a relatively cheap switch that provides PoE (Power ove
 
 Overall I've been really happy with the setup and haven't really had to mess with it much other than the occasional firmware updates to keep the devices up to date.
 
- [1]: https://amzn.to/2rxSJvN
- [2]: https://amzn.to/2Kcjehu
- [3]: https://amzn.to/2G3fOer
+ [1]: https://amzn.to/40ZANM1
+ [2]: https://amzn.to/40yyzSg
+ [3]: https://amzn.to/3Q6Oe6h
  [4]: https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_ER-4_DS.pdf
